@@ -5,49 +5,4 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-    <EditText
-        android:id="@+id/editTextTextMultiLine"
-        style="@style/Widget.AppCompat.EditText"
-        android:layout_width="249dp"
-        android:layout_height="62dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="101dp"
-        android:autofillHints="true"
-        android:ems="10"
-        android:gravity="start|top"
-        android:hint="Введите текст"
-        android:inputType="textMultiLine"
-        android:textColor="@color/purple_200"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.632"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.447"
-        tools:ignore="LabelFor" />
-
-    <Button
-        android:id="@+id/btn_save"
-        android:layout_width="108dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="133dp"
-        android:layout_marginTop="296dp"
-        android:layout_marginBottom="43dp"
-        android:text="save"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btn_load"
-        android:layout_width="108dp"
-        android:layout_height="72dp"
-        android:layout_marginTop="296dp"
-        android:layout_marginEnd="133dp"
-        android:layout_marginBottom="43dp"
-        android:text="load"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
