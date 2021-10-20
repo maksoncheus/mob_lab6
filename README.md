@@ -32,4 +32,4 @@
 }
 ```  
 Теперь при смене на ландшафтный режим и обратно, счетчик не будет сбрасываться:  
-[![Alternate Text]({/rsc/mob_lab6_2.jpg})]({/rsc/test.mp4} "Link Title")
+[![Alternate Text](/rsc/mob_lab6_2.jpg)](/rsc/test.mp4 "Link Title")
